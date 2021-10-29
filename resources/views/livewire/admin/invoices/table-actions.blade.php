@@ -1,0 +1,5 @@
+<div class="flex space-x-1 justify-around">
+    <button wire:click="print({{ $id }})" class="p-1 text-green-600 hover:bg-green-600 hover:text-white rounded">
+        <svg class="w-5 h-5" fill="currentColor" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="m414 80h-316c-5.523 0-10-4.477-10-10v-26c0-24.301 19.699-44 44-44h248c24.301 0 44 19.699 44 44v26c0 5.523-4.477 10-10 10z" clip-rule="evenodd"/><path fill-rule="evenodd" d="m458 112h-404c-29.776 0-54 24.224-54 54v188c0 29.776 24.224 54 54 54h34v-80c0-39.701 32.299-72 72-72h192c39.701 0 72 32.299 72 72v80h34c29.776 0 54-24.224 54-54v-188c0-29.776-24.224-54-54-54zm-361.98 120c-13.255 0-24.005-10.745-24.005-24s10.74-24 23.995-24h.01c13.255 0 24 10.745 24 24s-10.745 24-24 24z" clip-rule="evenodd"/><path fill-rule="evenodd" d="m352 304h-192c-13.255 0-24 10.745-24 24v80 32c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24v-32-80c0-13.255-10.745-24-24-24z" clip-rule="evenodd"/></svg>
+    </button>
+</div>

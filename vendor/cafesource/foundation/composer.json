@@ -1,0 +1,45 @@
+{
+  "name": "cafesource/foundation",
+  "description": "The cafesource foundation",
+  "keywords": [
+    "cafesource"
+  ],
+  "license": "MIT",
+  "homepage": "https://cafesource.net",
+  "authors": [
+    {
+      "name": "Mahdi akbari",
+      "email": "mahdi75akbari@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0|^7.4",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-openssl": "*"
+  },
+  "provide": {
+    "psr/container-implementation": "1.0"
+  },
+  "autoload": {
+    "files": [
+      "helpers/helpers.php"
+    ],
+    "psr-4": {
+      "Cafesource\\Foundation\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": []
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

@@ -1,0 +1,75 @@
+@media only screen and (min-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+
+
+
+
+
+@media only screen and (min-width : 310px) and (max-width : 640px) {
+    /* Styles */
+    body main .index {
+        background-size: 90% !important;
+        background-position-y: top !important;
+
+        .text-index {
+            .pink-text {
+                font-size: 70% !important;
+            }
+            .black-text {
+                font-size: 60% !important;
+            }
+        }
+        .save-up {
+            line-height: unset !important;
+            .save-text {
+                font-weight: bold !important;
+                font-size:99% !important;
+            }
+            .text-pink {
+                font-weight: bold !important;
+                font-size:99% !important;
+            }
+        }
+
+        .bg-secondary-op-30 {
+            background-color: rgba(21, 22, 22, 0.91) !important;
+        }
+        label {
+            color: white !important;
+        }
+    }
+}
+
+@media only screen and (min-width : 641px) and (max-width : 768px) {
+    /* Styles */
+    body main .index {
+        background-size: 70% !important;
+        background-position-y: top !important;
+
+        .text-index {
+            padding-top: 1rem !important;
+            margin-top: 0 !important;
+            margin-left: auto !important;
+            margin-right: 3rem !important;
+        }
+
+        .bg-secondary-op-30 {
+            background-color: rgba(21, 22, 22, 0.91) !important;
+        }
+        label {
+            color: white !important;
+        }
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    /* Styles */
+}
+@media only screen and (min-width : 1025px) and (max-width : 1824px) {
+    /* Styles */
+}
+@media only screen and (min-width : 1825px) {
+    /* Styles */
+}
